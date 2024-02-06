@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -22,3 +23,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+=======
+# simple_store
+a simpe_store with rails
+>>>>>>> aabc138c613c8f07d9e185ca3c81a57c261529b3
