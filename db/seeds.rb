@@ -19,12 +19,14 @@
 # end
 
 # Populate the products table with 676 products
-676.times do
-  Product.create!(
-    title: Faker::Commerce.product_name,
-    price: Faker::Commerce.price(range: 0.01..100.0),
-    stock_quantity: Faker::Number.between(from: 1, to: 100)
-  )
-end
+# 676.times do
+#   Product.create!(
+#     title: Faker::Commerce.product_name,
+#     price: Faker::Commerce.price(range: 0.01..100.0),
+#     stock_quantity: Faker::Number.between(from: 1, to: 100)
+#   )
+# end
+# puts "Created 676 products."
 
-puts "Created 676 products."
+# delete all data from table products
+Product.destroy_all
