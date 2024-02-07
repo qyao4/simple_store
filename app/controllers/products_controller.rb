@@ -2,7 +2,7 @@ class ProductsController < ApplicationController
 
   # Index
   def index
-    @products = Product.all
+    @products = Product.includes(:category).all
   end
 
   # Show action
