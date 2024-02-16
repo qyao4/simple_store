@@ -49,7 +49,8 @@ group :development, :test do
   gem "debug", platforms: %i[ mri mswin mswin64 mingw x64_mingw ]
 
   # add Faker gem
-  gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'main'
+  # gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'main'
+  gem 'faker', "3.2.3"
 end
 
 group :development do
